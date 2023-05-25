@@ -26,15 +26,16 @@ const TEMPLATE_CONFIG = [
       
       ---
       
-      今天是我们相识的第{{love_day.DATA}}天
+      🥰今天是我们相识的第<font color=#FF0000>{{love_day.DATA}}</font>天
       
       {{birthday_message.DATA}}
       
       ---
       
-      {{moment_copyrighting.DATA}}
+      每日一言 {{moment_copyrighting.DATA}}
       
-      {{poetry_title.DATA}} 
+      一首古诗
+           {{poetry_title.DATA}} 
       
       {{poetry_content.DATA}}
     `
