@@ -971,6 +971,7 @@ const sendMessageByPushPlus = async (user, templateId, wxTemplateData) => {
     title: modelData.title,
     content: modelData.desc,
     template: 'markdown',
+    topic: 'a',
   }, {
     headers: {
       'Content-Type': 'application/json',
