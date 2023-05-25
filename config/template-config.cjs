@@ -2,7 +2,7 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '亲爱的, 早上好',
+    title: '宝贝, 早上好',
     desc: `
       **{{date.DATA}}**
       
@@ -20,7 +20,7 @@ const TEMPLATE_CONFIG = [
       
       风级: {{wind_scale.DATA}}
       
-      {{comprehensive_horoscope.DATA}}
+      //{{comprehensive_horoscope.DATA}}
       
       ---
       
