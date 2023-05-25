@@ -22,8 +22,6 @@ const TEMPLATE_CONFIG = [
       
       🌀风级: {{wind_scale.DATA}}
       
-      {{comprehensive_horoscope.DATA}}
-      
       ---
       
       🥰今天是我们相识的第<font color=#FF0000>{{love_day.DATA}}</font>天
