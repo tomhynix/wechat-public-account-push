@@ -11,7 +11,7 @@ const USER_CONFIG = {
   APP_SECRET: '',
 
   PROVINCE: '内蒙古',
-  CITY: '锡林浩特',
+  CITY: '锡林浩特市',
 
   USERS: [
     {
