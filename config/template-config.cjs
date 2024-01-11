@@ -22,7 +22,7 @@ const TEMPLATE_CONFIG = [
 
       💧湿度:{{shidu.DATA}}
       
-      空气质量指数AQI:{{aqi.DATA}}
+      空气质量指数AQI:{{aqi.DATA}}{{quality.DATA}}
 
       ☀️日出/日落:{{sunrise.DATA}} / {{sunset.DATA}}
       
