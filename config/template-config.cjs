@@ -10,7 +10,7 @@ const TEMPLATE_CONFIG = [
       
       📅下个休息日：{{holidaytts.DATA}}
 
-      📖<font color=FFFF00F>读书提醒：今天也要好好看书哟~</font>
+      📖<font color=BC8F8F>读书提醒：今天也要好好看书哟~</font>
       
       ---
       
