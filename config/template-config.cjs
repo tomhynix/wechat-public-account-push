@@ -19,10 +19,16 @@ const TEMPLATE_CONFIG = [
       🌈天气：{{weather.DATA}}
       
       气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
+
+      💧湿度:{{shidu.DATA}}
       
-      →风向: {{wind_direction.DATA}}
+      空气质量指数AQI:{{aqi.DATA}}
+
+      ☀️日出/日落:{{sunrise.DATA}} / {{sunset.DATA}}
       
-      🌀风级: {{wind_scale.DATA}}
+      🌀风力: {{wind_direction.DATA}}{{wind_scale.DATA}}
+
+      温馨提示:{{notice.DATA}}
       
       ---
       
