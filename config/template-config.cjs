@@ -9,8 +9,6 @@ const TEMPLATE_CONFIG = [
       💕<font color=#FF00FF>暖心提醒</font>💕
       
       📅下个休息日：{{holidaytts.DATA}}
-
-      /*📖<font color=BC8F8F>读书提醒：今天也要好好看书哟~</font>*/
       
       ---
       
