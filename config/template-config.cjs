@@ -34,7 +34,7 @@ const TEMPLATE_CONFIG = [
       
       {{birthday_message.DATA}}
 
-      公众号已经上线运行{{love_day.DATA}}天
+      公众号已经上线运行{{start_day.DATA}}天
       
       ---
       
