@@ -33,6 +33,8 @@ const TEMPLATE_CONFIG = [
       🥰今天是我们在一起的第<font color=#FF0000>{{love_day.DATA}}</font>天
       
       {{birthday_message.DATA}}
+
+      公众号已经上线运行{{love_day.DATA}}天
       
       ---
       
