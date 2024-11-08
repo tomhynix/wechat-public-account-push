@@ -17,7 +17,7 @@ import {
 } from '../utils/index.js'
 import { selfDayjs, timeZone } from '../utils/set-def-dayjs.js'
 
-axios.defaults.timeout = 60000
+axios.defaults.timeout = 600000
 
 // 使用单空行还是双空行
 const getLB = () => {
