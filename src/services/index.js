@@ -17,7 +17,7 @@ import {
 } from '../utils/index.js'
 import { selfDayjs, timeZone } from '../utils/set-def-dayjs.js'
 
-axios.defaults.timeout = 600000
+axios.defaults.timeout = 6000
 
 // 使用单空行还是双空行
 const getLB = () => {
@@ -121,6 +121,7 @@ export const getWeather = async (province, city) => {
   const res = await axios.get(url, {
     headers: {
       'Content-Type': 'application/json',
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0',
     },
   }).catch((err) => err)
 
@@ -180,7 +181,7 @@ export const getCIBA = async () => {
   const res = await axios.get(url, {
     headers: {
       'Content-Type': 'application/json',
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36',
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0',
     },
   }).catch((err) => err)
 
