@@ -1,4 +1,4 @@
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+//process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 import axios from 'axios'
 import dayjs from 'dayjs'
 import { JSDOM } from 'jsdom'
@@ -17,7 +17,7 @@ import {
 } from '../utils/index.js'
 import { selfDayjs, timeZone } from '../utils/set-def-dayjs.js'
 
-axios.defaults.timeout = 6000
+axios.defaults.timeout = 600000
 
 // 使用单空行还是双空行
 const getLB = () => {
